@@ -1,0 +1,23 @@
+{
+    
+    "acf": {
+        "company": "",
+        "store": "",
+        "has_occupations": "",
+        "application_contactperson": "",
+        "kontaktperson_ausblenden": false,
+        "identifier": "12345678",
+        "start_immediate": true,
+        "vacancies": "1",
+        "apprenticeship_period": "1 Jahr",
+        "qualification_exam": "1",
+        "trial_apprenticeship": "1",
+        "work_weekend": "0",
+        "work_night": "1",
+        "gultig_bis": "",
+        "top_lehrstelle": false,
+        "salary_base": "",
+        "application_type": "contact_person",
+        "permalink_old": ""
+    }
+}

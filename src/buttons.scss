@@ -1,0 +1,37 @@
+@import "variables.scss";
+
+.buttons-area {
+  display: grid;
+
+  grid-template-rows: 0.8fr 0.8fr;
+  row-gap: 12px;
+
+}
+
+.button {
+  display: block;
+  padding: 1rem 0.5rem;
+  text-align: center;
+
+  a {
+    display: inline-flex;
+    img {
+      width: 23px;
+      height: auto;
+      padding-left: 8px;
+    }
+    text-decoration: none !important;
+  }
+
+  &.primary {
+    background-color: $primaryColor;
+    a {
+      color: $backgroundColor;
+    }
+  }
+
+  &.secondary {
+    border: 2px solid $primaryColor;
+    color: $backgroundColor;
+  }
+}
